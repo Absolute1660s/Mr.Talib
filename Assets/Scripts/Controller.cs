@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-public class EvilWizardYonlendirmeKodu : MonoBehaviour
+public class Controller : MonoBehaviour
 {
     Rigidbody2D rb;
     public float speed;
@@ -52,6 +52,15 @@ public class EvilWizardYonlendirmeKodu : MonoBehaviour
         else if (characterRightFace == true &&  horizontal < 0)
         {
             Turn();
+        }
+
+        if(!canJump)
+        {
+            anim.SetBool("isJumping", true);
+        }
+        else if(canJump)
+        {
+            anim.SetBool("isJumping", false);
         }
     }
 
