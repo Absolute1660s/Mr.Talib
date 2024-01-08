@@ -44,6 +44,15 @@ public class EvilWizardYonlendirmeKodu : MonoBehaviour
         {
             anim.SetBool("isRunning", true);
         }
+
+        if(characterRightFace == false && horizontal > 0)
+        {
+            Turn();
+        }
+        else if (characterRightFace == true &&  horizontal < 0)
+        {
+            Turn();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -63,13 +72,4 @@ public class EvilWizardYonlendirmeKodu : MonoBehaviour
         transform.localScale = Scaler;
 
     }
-
-
-
-
-
-
-
-
-
 }
