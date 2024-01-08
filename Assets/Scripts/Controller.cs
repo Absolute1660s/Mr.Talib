@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class EvilWizardYonlendirmeKodu : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class EvilWizardYonlendirmeKodu : MonoBehaviour
     bool canJump;
     public float jumpForce;
     private Animator anim;
+    bool characterRightFace = true;
 
 
     private void Start()
@@ -51,4 +53,23 @@ public class EvilWizardYonlendirmeKodu : MonoBehaviour
             canJump = true;
         }
     }
+
+
+    private void Turn()
+    {
+        characterRightFace = !characterRightFace;
+        Vector3 Scaler = transform.localScale;
+        Scaler.x *= -1;
+        transform.localScale = Scaler;
+
+    }
+
+
+
+
+
+
+
+
+
 }
