@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_Trashing.unity
+    guid: 6025273ad6909c347a59151ff5a26c69
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_Bar.unity
+    guid: e2f19f91431048f44a2328db89cf7e02
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_FevvareCafe.unity
+    guid: 66a40a8c0debfcd478520c4d394a196c
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_Cinema.unity
+    guid: 769147ae21dcb3f43ab65942cdc2b8ea
   m_configObjects: {}
