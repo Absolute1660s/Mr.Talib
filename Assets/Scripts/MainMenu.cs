@@ -18,11 +18,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void MultiPlayer()
-    {
-
-    }
-
     public void Settings()
     {
         SceneManager.LoadScene("SettingsMenu");
@@ -32,8 +27,4 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-
-
-
-
 }
