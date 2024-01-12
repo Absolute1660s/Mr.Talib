@@ -2768,7 +2768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-<<<<<<< HEAD
+
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2787,7 +2787,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1610183476
 CanvasRenderer:
-=======
+
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2799,15 +2799,15 @@ CanvasRenderer:
   m_SpriteSortPoint: 0
 --- !u!1 &1465286982
 GameObject:
->>>>>>> fc77d592f232c3e75ea1061d007cc4b7dc58d327
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
+
   m_GameObject: {fileID: 1610183473}
   m_CullTransparentMesh: 1
-=======
+
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465286984}
@@ -2886,7 +2886,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> fc77d592f232c3e75ea1061d007cc4b7dc58d327
+
 --- !u!1 &1854733544
 GameObject:
   m_ObjectHideFlags: 0
